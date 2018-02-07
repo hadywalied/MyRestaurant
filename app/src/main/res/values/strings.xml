@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyRestaurant</string>
+    <string name="welcome_to_our_restaurant">Welcome to our restaurant</string>
+    <string name="please_enter_your_name">please enter your name</string>
+    <string name="proceed">proceed</string>
+    <string name="logo">logo</string>
+    <string name="that_s_the_picture_of_what_ever_you_ordered">that\'s the picture of what ever you ordered</string>
+    <string name="textview1">TextView</string>
+    <string name="textview2">TextView</string>
+    <string name="textview3">TextView</string>
+    <string name="show_the_menu">Show the menu</string>
+    <string name="title_activity_orders">Orders</string>
+</resources>

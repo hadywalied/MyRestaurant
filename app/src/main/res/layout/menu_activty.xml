@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Show"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/welcoming"
+        android:layout_marginEnd="14dp"
+        android:text="Show Menu"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/welcoming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Show"
+        android:layout_marginTop="11dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <ListView
+            android:id="@+id/item_list"
+            style="@style/Widget.AppCompat.ListView.Menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/holo_red_dark"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false" />
+    </LinearLayout>
+</RelativeLayout>
